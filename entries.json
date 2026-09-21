@@ -1,0 +1,229 @@
+[
+  {
+    "word": "A",
+    "pos": "letter",
+    "meaning": "The first letter of the native Aklanon alphabet, representing the low central unrounded vowel /a/.",
+    "page": 39
+  },
+  {
+    "word": "a",
+    "pos": "Dp",
+    "meaning": "A tag particle expressing annoyance; \"ach\".",
+    "examples": [
+      { "akl": "Línti' kamó, a.", "eng": "Oh, darn you." },
+      { "akl": "Indí' tákon, a.", "eng": "I will not, ach." }
+    ],
+    "page": 39
+  },
+  {
+    "word": "a",
+    "pos": "intj",
+    "meaning": "An exclamation of discovery; \"ah\" (with high intonation).",
+    "page": 39
+  },
+  {
+    "word": "abá(h)",
+    "pos": "RV6",
+    "meaning": "to get or climb up on one's back",
+    "derived": [
+      {
+        "form": "paabá",
+        "pos": "CV",
+        "meaning": "to carry on one's back",
+        "example": { "akl": "Paábha akó.", "eng": "Carry me on your back." }
+      }
+    ],
+    "page": 39
+  },
+  {
+    "word": "abá(h)",
+    "pos": "intj",
+    "meaning": "An exclamation expressing strong disbelief: \"Really?\" \"Ah, go on!\"",
+    "page": 39
+  },
+  {
+    "word": "áb-ab",
+    "pos": "RV7",
+    "meaning": "to flare up, grow, get bigger (fire)",
+    "page": 39
+  },
+  {
+    "word": "abaká(h)",
+    "pos": "n",
+    "origin": "Sp",
+    "meaning": "abaca fibres, Manila hemp; Musa textiles",
+    "syn": ["linábag"],
+    "page": 39
+  },
+  {
+    "word": "ábak-ábak",
+    "pos": "RV7",
+    "meaning": "to be abundant, be in abundance",
+    "examples": [
+      { "akl": "Nagaábak-ábak ro búnga ku maís.", "eng": "The corn crop is abundant." }
+    ],
+    "page": 39
+  },
+  {
+    "word": "abakáda(h)",
+    "pos": "n",
+    "meaning": "alphabet; name of the first grade textbook",
+    "page": 39
+  },
+  {
+    "word": "abáe",
+    "pos": "RV1",
+    "meaning": "to afford",
+    "syn": ["saráng"],
+    "examples": [
+      { "akl": "Indí' akó kaabáe karón.", "eng": "I can't afford it." }
+    ],
+    "page": 39
+  },
+  {
+    "word": "abaeóng",
+    "pos": "n",
+    "meaning": "taro (tubercle); Colocasia esculenta",
+    "syn": ["gábi"],
+    "page": 39
+  },
+  {
+    "word": "abága(h)",
+    "pos": "n",
+    "meaning": "shoulder(s)",
+    "page": 39
+  },
+  {
+    "word": "abága",
+    "pos": "RV1",
+    "meaning": "to take responsibility, shoulder, take on",
+    "examples": [
+      { "akl": "Sín-o ro gaabága ku trabáho ngarón?", "eng": "Who will take on that job?" }
+    ],
+    "page": 39
+  },
+  {
+    "word": "abáhong",
+    "pos": "n",
+    "meaning": "shellfish",
+    "page": 39
+  },
+  {
+    "word": "abaníko(h)",
+    "pos": "n",
+    "origin": "Sp",
+    "meaning": "fan",
+    "syn": ["kábkab"],
+    "page": 39
+  },
+  {
+    "word": "abaníko",
+    "pos": "RV4",
+    "meaning": "to fan",
+    "page": 39
+  },
+  {
+    "word": "abánti(h)",
+    "pos": "RV6",
+    "origin": "Sp",
+    "meaning": "to go ahead, advance, go forward",
+    "opp": ["atrás"],
+    "page": 39
+  },
+  {
+    "word": "abánti",
+    "pos": "RV3",
+    "meaning": "to endure, put up with",
+    "page": 39
+  },
+  {
+    "word": "ábang",
+    "pos": "RV3",
+    "meaning": "to obstruct, block, hinder; waylay, ambush",
+    "page": 39
+  },
+  {
+    "word": "bága(h)",
+    "pos": "n",
+    "meaning": "glowing embers",
+    "page": 2
+  },
+  {
+    "word": "bága'",
+    "pos": "n",
+    "meaning": "lung(s)",
+    "page": 2
+  },
+  {
+    "word": "bagá'",
+    "pos": "adj",
+    "meaning": "swollen",
+    "page": 2
+  },
+  {
+    "word": "túbo(h)",
+    "pos": "n",
+    "meaning": "pipe, tube",
+    "page": 2
+  },
+  {
+    "word": "túbo'",
+    "pos": "RV7",
+    "meaning": "to sprout, grow; increase",
+    "page": 2
+  },
+  {
+    "word": "tubó",
+    "pos": "n",
+    "meaning": "sugar cane",
+    "page": 2
+  },
+  {
+    "word": "bobo",
+    "pos": "n",
+    "meaning": "dolt, simpleton, fool",
+    "page": 2
+  },
+  {
+    "word": "bo-bo'",
+    "pos": "RV2",
+    "meaning": "to pour out",
+    "page": 2
+  },
+  {
+    "word": "píto",
+    "pos": "RV",
+    "meaning": "to whistle",
+    "page": 4
+  },
+  {
+    "word": "pitó",
+    "pos": "n",
+    "meaning": "seven, 7",
+    "page": 4
+  },
+  {
+    "word": "hápon",
+    "pos": "n",
+    "meaning": "afternoon",
+    "page": 4
+  },
+  {
+    "word": "hapón",
+    "pos": "n",
+    "meaning": "Japan, Japanese",
+    "page": 4
+  },
+  {
+    "word": "tábo'",
+    "pos": "RV",
+    "meaning": "to fetch, meet",
+    "page": 4
+  },
+  {
+    "word": "tabó'",
+    "pos": "n",
+    "meaning": "dipper, ladle",
+    "page": 4
+  }
+]

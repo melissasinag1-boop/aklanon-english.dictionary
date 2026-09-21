@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Aklanon-English Dictionary</title>
+  <meta name="description" content="Look up Aklanon words and their English meanings. Works offline.">
+  <meta name="theme-color" content="#0D5563">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-192.png">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sticky">
+    <header class="top">
+      <div class="bar">
+        <h1>Aklanon-English Dictionary</h1>
+        <button id="about-btn" type="button" class="ghost">About</button>
+      </div>
+      <label class="search">
+        <span class="sr">Search a word</span>
+        <input id="q" type="search" inputmode="search" enterkeyhint="search"
+               autocomplete="off" autocapitalize="off" spellcheck="false"
+               placeholder="Search an Aklanon or English word">
+      </label>
+    </header>
+    <nav id="letters" class="letters" aria-label="Filter by first letter"></nav>
+  </div>
+
+  <main>
+    <p id="count" class="count" aria-live="polite"></p>
+    <ul id="results" class="results"></ul>
+    <p id="empty" class="empty" hidden></p>
+  </main>
+
+  <dialog id="about" aria-labelledby="about-title">
+    <h2 id="about-title">About this dictionary</h2>
+    <p>
+      This app holds a selected set of entries from
+      <cite>A Study of the Aklanon Dialect, Volume Two: Dictionary (of Root Words and Derivations), Aklanon to English</cite>
+      by Salas Reyes, Zorc, and Prado (1969). New entries can be added to the word list without changing the app.
+      <span id="about-count"></span>
+    </p>
+
+    <h3>Reading an entry</h3>
+    <ul>
+      <li>An acute accent marks the stressed vowel. <i>túbo</i> (pipe) and <i>tubó</i> (sugar cane) are different words.</li>
+      <li>An apostrophe marks a final glottal stop, as in <i>bága'</i> (lungs).</li>
+      <li><span class="h">(h)</span> marks a final /h/ that appears when the root takes an ending, for example <i>tinda(h)</i> becomes <i>tindahan</i>.</li>
+      <li>Search a word with a prefix, such as <i>paabá</i>, and the app shows the root it comes from.</li>
+    </ul>
+
+    <h3>Word kinds</h3>
+    <ul>
+      <li>Teal edge: verbs. RV1 to RV9 are the source's classes of regular verbs (pages 25 and 26 of the source). CV is a causative verb.</li>
+      <li>Gold edge: nouns.</li>
+      <li>Grey edge: adjectives, interjections, particles, and letters.</li>
+    </ul>
+
+    <p class="fine">
+      Entries were transcribed from a scanned copy and meanings follow the source. If you find a mistake, tell the researcher so it can be corrected. After your first visit the app works without a connection.
+    </p>
+    <button id="about-close" type="button" class="primary">Close</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
